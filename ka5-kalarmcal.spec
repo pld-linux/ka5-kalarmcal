@@ -36,6 +36,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Client library to access and handling of KAlarm calendar data.
 
+%description -l pl.UTF-8
+Biblioteka kliencka do dostępu i obługi danych kalendarzowych KAlarm.
+
 %package devel
 Summary:	Header files for %{kaname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kaname}
